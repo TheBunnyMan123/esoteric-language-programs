@@ -1,0 +1,25 @@
+``For loop library (e.g. for (i = 0; i < c; i++) {O=i})
+``
+`` C-X-O -- ITERCOUNT - OUTPUT
+`` OUTPUT contains the iterator for each iteration
+
+%^X
+%$CO
+
+OXC
+
+          /-O
+C-*#0-\   | /#1\
+  |   >->-*-*-{+}\
+  |    -~--------*#1\
+  |     \----{-}----/
+  |           |
+  |           |
+  |           \---*-#1-\
+  \----------->-+-*---{-}\
+              \-\        |
+                ~-------*/
+                \{-}{<}*/
+                  |  | #
+                  |  | 1
+                  \1#*-/
