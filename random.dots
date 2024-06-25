@@ -1,0 +1,29 @@
+``Pseudorandom number library (between 1 and 1000)
+``Seed must be changed or it will yeild the same result
+``
+`` S-X-O -- SEED - OUTPUT
+``
+`` To get another random number input a different number as a seed, e.g. the previous output
+
+%^X
+%$SO
+
+OXS
+
+  /-#1103515245\
+  |            |
+S-*-----------{*}-{+}-{%}--------{*}-{%}-O
+  |        /-------/   |          |   |
+  *-#12347-*-#1000-----*----------+---/
+  |                               |
+  *-#6098712332\                  |
+  |            |                  |
+  *-----------{*}-{+}-{%}------{*}/
+  |        /-------/   |        |
+  *-#91750-*-#1000-----/        |
+  |                             |
+  *-#1205982750\                |
+  |            |                |
+  *-----------{*}-{+}-{%}-------/
+  |        /-------/   |
+  *-#19362-*-#1000-----/
